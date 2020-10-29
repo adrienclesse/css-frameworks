@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(168, 164, 164);
+}
+
+
+.d-inline-flex {
+    width: 1550px;
+    height: fit-content;
+}
+
+button{
+    justify-content: center;
+}
+#backy{
+    background-color: lightgray;
+    border-radius: 40%;   
+    height: 460px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#buts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+iframe{
+    text-align: center;
+}
+
