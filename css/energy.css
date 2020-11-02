@@ -1,5 +1,6 @@
 body{
     background-color: rgb(168, 164, 164);
+    height: 1vh;
 }
 
 
@@ -8,18 +9,15 @@ body{
     height: fit-content;
 }
 
+.row {
+    display: grid;
+    grid-template-rows: ffr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10em;
+}
+
 button{
     justify-content: center;
-}
-#backy{
-    background-color: lightgray;
-    border-radius: 40%;   
-    height: 460px;
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
 }
 
 #buts{
@@ -27,9 +25,63 @@ button{
     align-items: center;
     justify-content: center;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.mt-5{
+    padding-top: 5em;
+}
+.rightside {
+    display: grid;
+    grid-template-columns : 1fr;
+    grid-template-rows: 1fr 3fr ;
+    justify-content: space-evenly;  
+    place-items: center;
+    
+}
 
+.headbackground {
+    background-color: lightgray;
+    border-radius: 100%;
+    height: 11em;
+    width: 11em;
+}
+.eyes{
+    padding-top: 2em;
+    display: grid;
+    grid-template-rows: 1f ;
+    grid-template-columns: 1fr 1fr;
+    height: 5em;
+    justify-items: center;
+}
+.eye1{
+    border-radius: 100%;
+    height: 2em;
+    width: 2em;
+    background-color: rgb(168, 164, 164);
+}
+
+    .eye2{
+        border-radius: 100%;
+        height: 2em;
+        width: 2em;
+        background-color: rgb(168, 164, 164)
+}
+#backy{
+    background-color: lightgray;
+    border-radius: 40%;   
+    height: 35em;
+    width: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    
+}
 
 iframe{
     text-align: center;
+    border-radius: 10%;
 }
 
